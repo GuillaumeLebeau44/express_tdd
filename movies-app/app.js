@@ -2,7 +2,6 @@ const express = require("express");
 
 const app = express();
 
-
 const movies = [
   {
     id: 1,

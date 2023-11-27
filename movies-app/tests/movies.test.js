@@ -22,7 +22,6 @@ describe("GET /api/movies/:id", () => {
 describe("GET /api/movies/:id", () => {
     it("should return the movie corresponding to the id", async () => {
         const response = await request(app).get("/api/movies/0");
-        
         expect(response.status).toEqual(404);
     })
 });
